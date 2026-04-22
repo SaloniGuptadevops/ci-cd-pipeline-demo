@@ -60,4 +60,3 @@ if __name__ == "__main__":
 """
     counts = parse_log(sample_log)
     print(format_report(counts))
-
