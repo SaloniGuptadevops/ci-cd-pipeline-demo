@@ -20,7 +20,7 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install -r Requirements.txt
+        run: pip install -r requirements.txt
 
       - name: Lint with flake8
         run: flake8 log_parser.py --max-line-length=120
